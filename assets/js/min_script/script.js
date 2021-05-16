@@ -6,7 +6,7 @@ $(document).ready(function () {
     var dir_lang = false;
   }
 
-  looding page
+  // looding page
   $(document).ready(function(){
     $(window).load(function () {
         $(".looding_page").fadeOut();
