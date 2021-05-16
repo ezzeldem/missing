@@ -51,10 +51,9 @@ $(document).ready(function () {
 
 
      // counter plugin
-  //    $('.counter').counterUp({
-  //     delay: 10,
-  //     time: 1000
-  // });
+     $(".counter").counterUp({
+      time: 2000,
+    });
 
     // AOS
     AOS.init({ duration: 600 });
