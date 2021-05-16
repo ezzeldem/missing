@@ -6,7 +6,12 @@ $(document).ready(function () {
     var dir_lang = false;
   }
 
-
+  // looding page
+  $(document).ready(function(){
+    $(window).load(function () {
+        $(".looding_page").fadeOut();
+    });
+});
 
 
      // missing_slider
