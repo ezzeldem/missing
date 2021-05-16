@@ -7,11 +7,11 @@ $(document).ready(function () {
   }
 
   // looding page
-  $(document).ready(function(){
-    $(window).load(function () {
-        $(".looding_page").fadeOut();
-    });
-});
+  // $(document).ready(function(){
+  //   $(window).load(function () {
+  //       $(".looding_page").fadeOut();
+  //   });
+// });
 
 
      // missing_slider
