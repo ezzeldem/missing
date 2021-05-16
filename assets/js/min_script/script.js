@@ -6,12 +6,12 @@ $(document).ready(function () {
     var dir_lang = false;
   }
 
-  // looding page
-  // $(document).ready(function(){
-  //   $(window).load(function () {
-  //       $(".looding_page").fadeOut();
-  //   });
-// });
+  looding page
+  $(document).ready(function(){
+    $(window).load(function () {
+        $(".looding_page").fadeOut();
+    });
+});
 
 
      // missing_slider
@@ -49,11 +49,6 @@ $(document).ready(function () {
 
 
 
-
-     // counter plugin
-     $(".counter").counterUp({
-      time: 2000,
-    });
 
     // AOS
     AOS.init({ duration: 600 });
